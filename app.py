@@ -28,7 +28,7 @@ config = RunConfig(
     tracing_disabled=True
 )
 
-# ========================== 🔧 TOOLS ==========================
+# ==========================  TOOLS ==========================
 
 @function_tool
 async def get_crypto_price(symbol: str) -> str:
